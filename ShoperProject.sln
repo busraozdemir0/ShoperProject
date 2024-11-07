@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FFE18784-0B41-4EE5-B35E-AC56D6B0BA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Application", "Core\Shoper.Application\Shoper.Application.csproj", "{1ABB6017-0249-4223-8A06-3870DAF3497F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoper.Application", "Core\Shoper.Application\Shoper.Application.csproj", "{1ABB6017-0249-4223-8A06-3870DAF3497F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Domain", "Core\Shoper.Domain\Shoper.Domain.csproj", "{5A87D7BD-683D-456C-8463-D4A6B52D7440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoper.Domain", "Core\Shoper.Domain\Shoper.Domain.csproj", "{5A87D7BD-683D-456C-8463-D4A6B52D7440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Persistence", "Infrastructure\Shoper.Persistence\Shoper.Persistence.csproj", "{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoper.Persistence", "Infrastructure\Shoper.Persistence\Shoper.Persistence.csproj", "{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.WebApi", "Presentation\Shoper.WebApi\Shoper.WebApi.csproj", "{A03DAE60-CFA8-4833-8594-6F2915381A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03DAE60-CFA8-4833-8594-6F2915381A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03DAE60-CFA8-4833-8594-6F2915381A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03DAE60-CFA8-4833-8594-6F2915381A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03DAE60-CFA8-4833-8594-6F2915381A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{1ABB6017-0249-4223-8A06-3870DAF3497F} = {6CB16F95-2269-4AD1-9D33-12FDD135EEFF}
 		{5A87D7BD-683D-456C-8463-D4A6B52D7440} = {6CB16F95-2269-4AD1-9D33-12FDD135EEFF}
 		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142} = {A9203586-6F9F-4B6A-B7AF-F467A262FEE8}
+		{A03DAE60-CFA8-4833-8594-6F2915381A86} = {0D3BE151-A60A-48B2-8790-4A540E7A3510}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82BA2F55-1776-4D6F-A68C-7FF9C6EA43F6}
