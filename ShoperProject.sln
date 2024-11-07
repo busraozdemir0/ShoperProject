@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6CB16F95-2269-4AD1-9D33-12FDD135EEFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A9203586-6F9F-4B6A-B7AF-F467A262FEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0D3BE151-A60A-48B2-8790-4A540E7A3510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FFE18784-0B41-4EE5-B35E-AC56D6B0BA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Application", "Core\Shoper.Application\Shoper.Application.csproj", "{1ABB6017-0249-4223-8A06-3870DAF3497F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Domain", "Core\Shoper.Domain\Shoper.Domain.csproj", "{5A87D7BD-683D-456C-8463-D4A6B52D7440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoper.Persistence", "Infrastructure\Shoper.Persistence\Shoper.Persistence.csproj", "{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ABB6017-0249-4223-8A06-3870DAF3497F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABB6017-0249-4223-8A06-3870DAF3497F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABB6017-0249-4223-8A06-3870DAF3497F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABB6017-0249-4223-8A06-3870DAF3497F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A87D7BD-683D-456C-8463-D4A6B52D7440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A87D7BD-683D-456C-8463-D4A6B52D7440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A87D7BD-683D-456C-8463-D4A6B52D7440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A87D7BD-683D-456C-8463-D4A6B52D7440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1ABB6017-0249-4223-8A06-3870DAF3497F} = {6CB16F95-2269-4AD1-9D33-12FDD135EEFF}
+		{5A87D7BD-683D-456C-8463-D4A6B52D7440} = {6CB16F95-2269-4AD1-9D33-12FDD135EEFF}
+		{EA422CF1-0F91-4DEF-9E1A-3F4B27B83142} = {A9203586-6F9F-4B6A-B7AF-F467A262FEE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82BA2F55-1776-4D6F-A68C-7FF9C6EA43F6}
+	EndGlobalSection
+EndGlobal
