@@ -1,5 +1,6 @@
 using Shoper.Application.Interfaces;
 using Shoper.Application.Usecases.CategoryServices;
+using Shoper.Application.Usecases.CustomerServices;
 using Shoper.Persistence.Context;
 using Shoper.Persistence.Repositories;
 
@@ -10,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(); // db baðlantýsý
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+builder.Services.AddScoped<ICustomerServices, CustomerServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
