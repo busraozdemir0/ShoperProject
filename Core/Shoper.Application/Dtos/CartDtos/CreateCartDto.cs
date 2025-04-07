@@ -10,9 +10,9 @@ namespace Shoper.Application.Dtos.CartDtos
 {
     public class CreateCartDto
     {
-        public decimal TotalAmount { get; set; }
+        //public decimal TotalAmount { get; set; }
         public DateTime CreatedDate { get; set; }
-        public int? CustomerId { get; set; }
+        public int CustomerId { get; set; }
         public ICollection<CreateCartItemDto>? CartItems { get; set; }
     }
 }

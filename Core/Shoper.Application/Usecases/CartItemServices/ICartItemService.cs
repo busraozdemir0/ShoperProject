@@ -15,5 +15,6 @@ namespace Shoper.Application.Usecases.CartItemServices
         Task CreateCartItemAsync(CreateCartItemDto model);
         Task UpdateCartItemAsync(UpdateCartItemDto model);
         Task DeleteCartItemAsync(int id);
+        Task<List<ResultCartItemDto>> GetByCartIdCartItemAsync(int cartId);
     }
 }
